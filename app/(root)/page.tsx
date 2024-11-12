@@ -1,10 +1,5 @@
-import Hello from "@/app/components/hello";
+const Page = () => {
+  return <h1 className="text-2xl">HOME</h1>;
+};
 
-export default function Home() {
-  return (
-    <>
-      <h1>Welcome to next.js 15</h1>
-      <Hello />
-    </>
-  );
-}
+export default Page;
