@@ -1,4 +1,4 @@
-import SearchForm from "@/app/components/SearchForm";
+import SearchForm from "@/components/SearchForm";
 
 const Page = async ({ searchParams }: { searchParams: { query?: string } }) => {
   const query = (await searchParams).query;

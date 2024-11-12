@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { auth, signOut } from "@/auth";
-import SignInButton from "@/app/components/SignInButton";
+import SignInButton from "@/components/SignInButton";
 
 const Navbar = async () => {
   const session = await auth();
