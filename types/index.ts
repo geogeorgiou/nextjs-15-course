@@ -1,11 +1,5 @@
-export type StartupCardType = {
-  _createdAt: string;
-  views: number;
-  author: { _id: number; name: string };
-  _id: number;
-  description: string;
-  image: string;
-  title: string;
-  category: string;
-  type: string;
+import { Author, Startup } from "@/sanity/types";
+
+export type StartupCardType = Omit<Startup, "author"> & {
+  author?: Author;
 };
