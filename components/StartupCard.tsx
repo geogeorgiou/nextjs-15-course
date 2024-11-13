@@ -1,9 +1,9 @@
-import { formatDate } from "@/lib/utils";
 import { StartupCardType } from "@/types";
 import { EyeIcon } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import { formatDate } from "@/lib/utils";
 
 const StartupCard = ({ post }: { post: StartupCardType }) => {
   const {
